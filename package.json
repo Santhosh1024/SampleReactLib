@@ -1,11 +1,10 @@
-
 {
   "name": "react-native-sample-library",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "react-native"
@@ -15,6 +14,5 @@
   "peerDependencies": {
     "react-native": "^0.41.2",
     "firebase": "^7.2.0"
-
   }
 }
