@@ -16,7 +16,7 @@ let addItem = item => {
 	});
 };
 
-class AddItem extends Component {
+export default class AddItem extends Component {
 	state = {
 		name: ''
 	};
