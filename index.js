@@ -3,4 +3,6 @@ import { NativeModules } from 'react-native';
 
 const { RNSampleLibrary } = NativeModules;
 
-export default RNSampleLibrary.AddItem;
+import AddItem from 'Components/AddItem'
+
+export default AddItem;
