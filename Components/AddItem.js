@@ -8,13 +8,13 @@ import {
 	AlertIOS
 } from 'react-native';
 
-import { db } from 'src/config';
+/*import { db } from 'src/config';
 
 let addItem = item => {
 	db.ref('/items').push({
 		name: item
 	});
-};
+};*/
 
 export default class AddItem extends Component {
 	state = {
@@ -27,7 +27,7 @@ export default class AddItem extends Component {
 		});
 	};
 	handleSubmit = () => {
-		addItem(this.state.name);
+		// addItem(this.state.name);
 		AlertIOS.alert('Item saved successfully');
 	};
 
