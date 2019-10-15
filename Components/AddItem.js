@@ -27,7 +27,7 @@ export default class AddItem extends Component {
 		});
 	};
 	handleSubmit = () => {
-		// addItem(this.state.name);
+		addItem(this.state.name);
 		Alert.alert('Item saved successfully');
 	};
 
@@ -59,7 +59,8 @@ const styles = StyleSheet.create({
 	title: {
 		marginBottom: 20,
 		fontSize: 25,
-		textAlign: 'center'
+		textAlign: 'center',
+		color:'#6565fc'
 	},
 	itemInput: {
 		height: 50,
@@ -67,19 +68,19 @@ const styles = StyleSheet.create({
 		marginRight: 5,
 		fontSize: 23,
 		borderWidth: 1,
-		borderColor: 'white',
+		borderColor: '#6565fc',
 		borderRadius: 8,
 		color: 'white'
 	},
 	buttonText: {
 		fontSize: 18,
-		color: '#111',
+		color: 'white',
 		alignSelf: 'center'
 	},
 	button: {
 		height: 45,
 		flexDirection: 'row',
-		backgroundColor: 'white',
+		backgroundColor: '#6565fc',
 		borderColor: 'white',
 		borderWidth: 1,
 		borderRadius: 8,
