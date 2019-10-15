@@ -28,7 +28,7 @@ export default class AddItem extends Component {
 	};
 	handleSubmit = () => {
 		addItem(this.state.name);
-		Alert.alert('Item saved successfully');
+		// Alert.alert('Item saved successfully');
 	};
 
 	render() {
