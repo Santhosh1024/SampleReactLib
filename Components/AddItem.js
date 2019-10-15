@@ -28,7 +28,7 @@ export default class AddItem extends Component {
 	};
 	handleSubmit = () => {
 		addItem(this.state.name);
-		// Alert.alert('Item saved successfully');
+		Alert.alert('Item saved successfully');
 	};
 
 	render() {
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 		padding: 30,
 		flexDirection: 'column',
 		justifyContent: 'center',
-		backgroundColor: '#6565fc'
+		backgroundColor: 'white'
 	},
 	title: {
 		marginBottom: 20,
